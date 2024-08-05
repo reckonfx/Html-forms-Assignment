@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+
+    <h1 align = "center">Assignment 4, Forms</h1>
+    <h2 align = "center">Student Name : Aamir Ahmed Shamsi</h2>
+    <br><br><br><br>
+    <form action="" style="background-color: olivedrab;">
+        <fieldset>
+            <legend align = center>Student Information</legend> <br><br>
+            <label for="stdname">Student Name</label>
+            <input type="text" id="stdname"><br><br>
+            <label for="Fname">Student's Father Name</label>
+            <input type="text" name="" id="Fname"><br><br>
+            <label for="dob">Student Date Of Birth</label>
+            <input type="date" id="bod"><br><br>
+            
+            <label for="">Gender</label>
+            <label for="">Male</label>
+            <input type="radio" value = "Male" name="group1">
+            <label for="">Female</label>
+            <input type="radio" value = "Female" name="group1">
+        </fieldset> <br><br>
+        <fieldset>
+            <legend align = "center">Contact Information</legend>
+            <label for="Phone">Phone Number</label>
+            <input type="number" name="" id="Phone"><br><br>
+            <label for="emergencyno">Emergency contact No</label>
+            <input type="number" name="" id="emergencyno"><br><br>
+            <label for="email">Student Email </label>
+            <input type="email" name="" id="email" required><br><br>
+        </fieldset> <br><br>
+        <fieldset>
+            <legend align = "center">Academic Details</legend>
+            <label for="class">Grade or Class</label>
+            <select name="" id="">
+                <option value="not selected"></option>
+                <option value="Semester 1">Semester 1</option>
+                <option value="Semester 2">Semester 2</option>
+                <option value="Semester 3">Semester 3</option>
+                <option value="Semester 4">Semester 4</option>
+                <option value="Semester 5">Semester 5</option>
+            </select> <br><br>
+            
+            <label for="">Courses Enrolled In</label>
+            <label for="Python">Python</label>
+            <input type="checkbox" name="Python" id="Python" value="Python">
+            <label for="JavaScript">JavaScript</label>
+            <input type="checkbox" name="JavaScript" id="JavaScript" value="JavaScript">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="HTML" id="HTML" value="HTML">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="CSS" id="CSS" value="CSS">
+            
+        </fieldset> <br><br>
+        <fieldset >
+            <legend align = "center">Healt Information</legend>
+            <label yalign = "top" for="allergies">Any Allergies or Medical Conditions</label>
+            <textarea name="" id="allergies"></textarea> <br><br>
+            <label for="Medications">Medications (If Relevent) </label>
+            <textarea name="" id="Medications"></textarea>
+        </fieldset><br><br>
+
+        <fieldset >
+            <legend align = "center">Parent/Guardian Information</legend>
+            <label for="guardian">Name of Parent /Guardian</label>
+            <input type="text" id="guardian"> <br><br>
+            <label for="">Contact Details of Parent/Guardian</label>
+            <input type="number" placeholder="eg.. 03XX XXXXXXX">
+
+        </fieldset>
+        <button align = "center">Submit</button>
+    </form>
+</body>
+</html>
